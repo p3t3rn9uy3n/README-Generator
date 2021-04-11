@@ -22,6 +22,15 @@ const questions = [
         name: "why"
     },
     {
+        type:"list",
+        message: "Choose a license.",
+        name: "license",
+        choices: [
+            "MIT (https://opensource.org/licenses/MIT)", 
+            "APACHE 2.0 (https://opensource.org/licenses/Apache-2.0)", 
+        ]
+    },
+    {
         type: "input",
         message: "What problem does it solve?",
         name: "problem"
