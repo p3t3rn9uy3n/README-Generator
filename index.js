@@ -26,8 +26,8 @@ const questions = [
         message: "Choose a license.",
         name: "license",
         choices: [
-            "MIT (https://opensource.org/licenses/MIT)", 
-            "APACHE 2.0 (https://opensource.org/licenses/Apache-2.0)", 
+            'MIT https://opensource.org/licenses/MIT', 
+            'APACHE https://opensource.org/licenses/Apache-2.0', 
         ]
     },
     {
